@@ -116,7 +116,7 @@ const changeImage = event => {
     if (img.dataset.backdrop ) {
       [img.src, img.dataset.backdrop] = [img.dataset.backdrop, img.src];
     }
-
+    
   }
 
 };
